@@ -1,0 +1,71 @@
+/* movies.css */
+
+.App {
+    padding: 20px;
+}
+
+.MovieRow {
+    margin-bottom: 2rem;
+}
+
+.scroll-container {
+    overflow-x: auto; 
+    white-space: nowrap; 
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    scrollbar-width: none; /* For Firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+.movie-card {
+    width: 172px; /* Width for movie cards */
+    display: inline-block; /* Keep cards inline */
+    margin-right: 20px; /* Space between cards */
+}
+
+.movie-card img {
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .movie-card {
+        width: 150px; /* Adjust card size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-card {
+        width: 130px; /* Further adjust for mobile */
+    }
+}
+/* movies.css */
+
+.movie-detail {
+    padding: 20px;
+}
+
+.movie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.movie-table th, .movie-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.movie-table th {
+    background-color: #f2f2f2;
+}
+
+.movie-poster {
+    width: 300px;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-top: 20px; /* Space between table and poster */
+}

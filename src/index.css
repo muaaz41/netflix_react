@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.some-class {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/04bef84d-51f6-401e-9b8e-4a521cbce3c5/null/PK-en-20240903-TRIFECTA-perspective_f209a29a-799d-4c4c-9190-b2a410cbfa06_large.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.some-class1 {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/04bef84d-51f6-401e-9b8e-4a521cbce3c5/null/PK-en-20240903-TRIFECTA-perspective_f209a29a-799d-4c4c-9190-b2a410cbfa06_large.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.some-class2 {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/04bef84d-51f6-401e-9b8e-4a521cbce3c5/null/PK-en-20240903-TRIFECTA-perspective_f209a29a-799d-4c4c-9190-b2a410cbfa06_large.jpg');
+    background-size: cover;
+    background-position: center;
 }
