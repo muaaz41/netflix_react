@@ -11,7 +11,7 @@ const MoviesPage = () => {
 
     useEffect(() => {
         const fetchMoviesByGenre = async (genre) => {
-            const response = await axios.get(`http://www.omdbapi.com/?s=${genre}&apikey=${API_KEY}`);
+            const response = await axios.get(`https://www.omdbapi.com/?s=${genre}&apikey=${API_KEY}`);
             return response.data.Search || []; 
         };
 
