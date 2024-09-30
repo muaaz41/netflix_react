@@ -25,7 +25,7 @@ const LandingPage = () => {
         const fetchMovies = async () => {
             setLoading(true);
             try {
-                const response = await axios.get(`http://www.omdbapi.com/?s=Guardians&apikey=${apiKey}`);
+                const response = await axios.get(`https://www.omdbapi.com/?s=Guardians&apikey=${apiKey}`);
                 const data=response.data;
                 if (data.Response === 'True') {
                     setMovies(data.Search);
