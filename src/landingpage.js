@@ -1,4 +1,3 @@
-// src/components/LandingPage.js
 import React, { useState, useEffect, useRef } from "react";
 import { Link, Navigate } from 'react-router-dom';
 import { faTv, faDownload, faBullhorn, faUser } from "@fortawesome/free-solid-svg-icons";

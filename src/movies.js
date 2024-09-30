@@ -1,4 +1,3 @@
-// src/movies.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Moviepost from './Movieposter'; 
@@ -31,7 +30,7 @@ const MoviesPage = () => {
 
     return (
         <div className="p-4">
-            <h1 className="text-3xl font-bold mb-4 text-center text-red-800">Movies</h1>
+            <h1 className="text-3xl font-bold mb-4 text-center underline text-red-800">NETFLIX MOVIES</h1>
             {Object.entries(moviesData).map(([genre, movieList]) => (
                 <div key={genre} className="mb-4">
                     <h2 className="text-xl font-bold mb-2 text-left">{genre.charAt(0).toUpperCase() + genre.slice(1)}</h2>

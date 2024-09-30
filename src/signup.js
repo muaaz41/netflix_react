@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios'; // Import Axios
+import axios from 'axios'; 
 
 const SignUp = () => {
   const [email, setEmail] = useState('');
